@@ -10,9 +10,7 @@ import util.TrataException;
     import beans.Cliente;
 /*---------------------------------------------------------------------------*
 *   Nesta classe implementamos os métodos  abstratos da classe "ClientesDAO" *
-*                                                                            *
-*              Substitua cada "xxxxxx"  pelo nome do método correspondente:  *
-*                   Você encontratrá na classe: ClientesDB                 *                                                         *
+*                                                                            *                                                       *
 *----------------------------------------------------------------------------*/
 	public class ClientesDB implements ClientesDAO {
 
@@ -21,13 +19,7 @@ import util.TrataException;
     private final static String DELETE_CLIENTE = "DELETE FROM clientes WHERE cpf = '";
     private final static String GET_ALL_CLIENTES = "SELECT * FROM clientes order by 2";
     private final static String GET_CLIENTE_BY_CPF = "SELECT * FROM clientes WHERE cpf = ?";
-    /* 
-    private DataSource ds;
     
-    public void setDataSource(DataSource ds) {
-    	this.ds = ds;
-    }
-
     /*
      * @see dao.ClientesDAO#excluir(beans.Cliente)
      */
@@ -60,7 +52,7 @@ import util.TrataException;
      * @see dao.ClientesDAO#salvar(beans.Cliente)
      */
     public void salvar(Cliente cliente) throws TrataException {
-    	 // Criar uma variavel para a Conexao
+    	// Criar uma variavel para a Conexao
         Connection conn = null;
         // Criar uma variavel para a PreparedStatement
         PreparedStatement stmt = null;

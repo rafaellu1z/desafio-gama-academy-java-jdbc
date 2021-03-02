@@ -5,11 +5,6 @@ package dao;
 	import util.TrataException;
 	import java.util.List;
 
-/*---------------------------------------------------------------------------*
-*              você deve alterar qui somente onde exisiter "xxxxxx"          *
-*              Substitua cada "xxxxxx"  pelo nome do método correspondente:  *
-*                   Você encontratrá na classe: ClientesDB                 *                                                         *
-*----------------------------------------------------------------------------*/
 
 	public interface ClientesDAO {
 

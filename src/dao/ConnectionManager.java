@@ -5,8 +5,6 @@ import util.TrataException;
 
 public class ConnectionManager {
 
-    // 1) Coloque o valor adequado nas constantes DATABASE, USER, IP e PASSWORD
-    // 2) Teste esta classe para garantir que esta funcionando
     private static final String STR_DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DATABASE = "clientes?useTimezone=true&serverTimezone=UTC";
     private static final String IP = "127.0.0.1";
